@@ -38,15 +38,17 @@
 
       <div class="main">
         <div class="main__nav">
-          <div class="main__nav--title">Don't have an account?</div>
-          <a href="/signup.html"> <button class="main__nav--btn btn">Sign up</button></a>
+          <div class="main__nav--title">Have an account?</div>
+          <a href="/"> <button class="main__nav--btn btn">Login</button></a>
         </div>
-        <div class="main__login">
+        <div class="main__signup">
           <div class="main__login--header">
-            <div class="main__login--title">Login to Login 1</div>
+            <div class="main__login--title">Signup to Login 1</div>
             <div class="main__login--info">Enter your details below</div>
           </div>
           <div class="main__login--form">
+            <label for="userName" class="main__login--label uppercase">Name</label>
+            <input type="text" class="main__login--input" id="userName" placeholder="Your name" />
             <label for="loginEmail" class="main__login--label uppercase">Email address</label>
             <input
               type="text"
@@ -54,17 +56,23 @@
               id="loginEmail"
               placeholder="login1@login.com"
             />
-            <div class="label-password">
-              <label for="loginPassword" class="main__login--label uppercase">Password</label>
-              <small class="main__login--forgot">Forgot password?</small>
-            </div>
+            <label for="loginPassword" class="main__login--label uppercase">Password</label>
             <input
               type="password"
               class="main__login--input"
               id="loginPassword"
               placeholder="Enter your password"
             />
-            <button class="main__login--btn btn">Sign in</button>
+            <label for="cofirmPassword" class="main__login--label uppercase"
+              >Confirm Password</label
+            >
+            <input
+              type="password"
+              class="main__login--input"
+              id="cofirmPassword"
+              placeholder="Enter your password again"
+            />
+            <button class="main__login--btn btn">Sign up</button>
           </div>
         </div>
       </div>

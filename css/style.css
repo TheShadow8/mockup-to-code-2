@@ -190,13 +190,25 @@ body {
 }
 
 .main__login {
-  flex-basis: 40%;
-  margin: 10rem 15rem;
+  width: 50%;
+  margin: 10rem 10rem 10rem 30rem;
+
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
+.main__signup {
+  width: 50%;
+  margin: 5rem 10rem 10rem 30rem;
+
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .main__login--header {
   line-height: 3rem;
 }
@@ -231,6 +243,7 @@ body {
   border: 1px solid var(--color-grey-light-4);
   border-radius: 2px;
 }
+
 .main__login--btn {
   align-self: center;
   margin-top: 2rem;
